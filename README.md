@@ -20,7 +20,7 @@
 [**YoulikeTwit**](https://github.com/RozhakXD/YoulikeTwit) is a script that is used to get free followers on a Twitter account, this script uses the feature of following each other among users and you are required to have coins so you can exchange them for followers.
 
 ### Termux command?
-First you must have the [Termux](https://f-droid.org/repo/com.termux_118.apk) application to run this tool and for how to use it can be seen on [**Youtube**](https://youtu.be/ZE4qk92wpuU). Then you enter some basic commands below!
+First you must have the [Termux](https://f-droid.org/repo/com.termux_118.apk) application to run this script and for how to use it can be seen on [**Youtube**](https://youtube.com/rozhakid). Then you enter some basic commands below!
 ```
 $ apt update -y && apt upgrade -y
 $ pkg install git python-pip
