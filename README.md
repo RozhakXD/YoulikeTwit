@@ -52,7 +52,6 @@ This script takes 1 to 3 days for all followers to log in, this process can take
 
 ### Didn't get coins?
 
-**Reason :**
 - There is a problem on the Youlikehits website when getting coins.
 - There are few or no missions on the Youlikehits website.
 - The target account being followed is unavailable or has been banned.
