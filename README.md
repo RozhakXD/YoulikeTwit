@@ -36,7 +36,7 @@ $ python Run.py
 ```
 
 ### How long will it take followers to arrive?
-This script takes 1 to 3 days for all followers to come, this process can take longer if the number of users on the website decreases. 
+This script takes 1 to 3 days for all followers to come, this process can take longer if the number of users on the website decreases. If you have exchanged coins for followers, you may not do the mission first because it can cause followers not to arrive at all.
 
 ### Requirements for logging in?
 
