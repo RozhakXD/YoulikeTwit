@@ -36,7 +36,7 @@ $ python Run.py
 ```
 
 ### How long will it take followers to arrive?
-This script takes 1 to 3 days for all followers to log in, this process can take longer if the number of users on the website decreases. 
+This script takes 1 to 3 days for all followers to come, this process can take longer if the number of users on the website decreases. 
 
 ### Requirements for logging in?
 
